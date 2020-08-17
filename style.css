@@ -1,0 +1,44 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.section {
+	width: 90vw;
+	margin: auto;
+	border: 1px solid black;
+	text-align: center;
+	padding: .55em 0em;
+}
+
+.tabs {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	width: 90vw;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.tab {
+	border: 1px solid black;
+	width: 100vw;
+	padding: .25em 0;
+	text-align: center;
+	cursor: pointer;
+	transition: 150ms ease-in;
+}
+
+.tab:hover {
+	background: black;
+	color: white;
+}
